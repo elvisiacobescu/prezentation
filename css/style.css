@@ -1,0 +1,244 @@
+body, img {
+    margin: 0px;
+    padding: 0px;
+}
+
+#carousel {
+    margin: 0 auto;
+    width: 100%;
+    height: 970px;
+    background: #efefef;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.carousel_box {}
+
+#section1 {
+    position: relative;
+}
+
+.overlay {
+    background-color: gray;
+    opacity: 0.2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#peronalize {
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top: 267px;
+    /*background-color: white;*/
+    left: 41%;
+}
+
+.photo_el img {
+    border-radius: 150px;
+}
+
+.name {
+    font-size: 28px;
+    color: #b8d1e6;
+    font-family: cursive;
+}
+
+.title {
+    font-size: 29px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: floralwhite;
+}
+
+#meniu li {
+    float: left;
+    list-style-type: none;
+    width: 95px;
+    font-size: 21px;
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+#meniu li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#Main-meniu {
+    float: right;
+    margin-right: 0px;
+}
+
+#section3 {
+    /*height: 3200px;*/
+    /*background-color: blue;*/
+}
+
+#section2 {
+    height: 60px;
+    background-color: white;
+}
+
+#section2Context {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.fixheader {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.descript {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+}
+
+.normalposi {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.caracteristici {}
+
+#exp li, #hob li {
+    width: 75px;
+    height: 75px;
+    list-style-type: none;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    border-radius: 37px;
+}
+
+.img75raund {
+    border-radius: 37px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.caracteristici {
+    height: 89px;
+    background-color: #1d1e1a;
+    margin-top: -16px;
+}
+
+.circle {
+    height: 84px;
+    width: 84px;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: none;
+}
+
+.circle100 {
+    background: conic-gradient(red 0%, gold 40%, green 100%);
+}
+
+.circle90 {
+    background: conic-gradient(red 0%, gold 40%, #208a00 90%, #1d1e1a 90.1%);
+}
+
+.circle80 {
+    background: conic-gradient(red 0%, gold 40%, #4d9900 80%, #1d1e1a 80.1%);
+}
+
+.circle70 {
+    background: conic-gradient(red 0%, gold 40%, #78a800 70%, #1d1e1a 70.1%);
+}
+
+.circle60 {
+    background: conic-gradient(red 0%, gold 40%, #a1b600 60%, #1d1e1a 60.1%);
+}
+
+.circle50 {
+    background: conic-gradient(red 0%, gold 40%, #cfc600 50%, #1d1e1a 50.1%);
+}
+
+.circle40 {
+    background: conic-gradient(red 0%, gold 40%, #1d1e1a 40.1%);
+}
+
+
+/*#Conical {
+    height: 200px;
+    display: block;
+}*/
+
+.hoverd {
+    display: block;
+}
+
+#exp .active {
+    display: block;
+}
+
+.descriere {
+    background-color: white;
+    width: 1240px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#hob li:hover, #hob li img:hover {
+    -moz-transform: scale(1.11);
+    -webkit-transform: scale(1.11);
+    transform: scale(1.11);
+    /*border:1px solid white;*/
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+#hob li .active {
+    -moz-transform: scale(1.20);
+    -webkit-transform: scale(1.20);
+    transform: scale(1.20);
+    //margin-right: 20px;
+}
+
+#section7 {
+    height: 100px;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.centfooter {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.centercontent {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    width: 400px;
+}
+
+.centercontent p {
+    display: block;
+    width: 320px;
+    float: left;
+}
+
+.centercontent span {
+    float: left;
+}
+.space{
+  padding: 26px;
+display: inline;
+}

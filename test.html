@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <svg width="400" height="300">
+    <meshGradient x="100" y="100" id="Conical">
+        <meshRow>
+            <meshPatch>
+                <stop offset-path="l 0, -100" stop-color="blue" />
+                <stop offset-path="a 100,100 0 0,1 70.7,29.3" stop-color="green" />
+                <stop stop-color="green" />
+                <!-- offset-path="l -70.7,70.7" -->
+                <stop stop-color="blue" />
+                <!-- offset-path="z" -->
+            </meshPatch>
+            <meshPatch>
+                <stop offset-path="a 100,100 0 0,1 29.1,70.7" stop-color="red" />
+                <stop offset-path="l -100, 0" stop-color="red" />
+                <stop offset-path="z"/>
+                <!-- , effective stop-color: green -->
+            </meshPatch>
+            <!-- ... -->
+        </meshRow>
+    </meshGradient>
+      <ellipse cx="100" cy="100" rx="100" ry="100" fill="orange" />
+    </svg>
+  </body>
+</html>
